@@ -7,8 +7,8 @@ window.onload=function(){
     //设置所有套餐明细初始隐藏
     init();
     function init(){
-        for(let i=0;i<detailletBoxArr.length;i++){
-            detailletBoxArr[i].style.display='none';
+        for(const element of detailletBoxArr){
+            element.style.display='none';
 
         }
     }
