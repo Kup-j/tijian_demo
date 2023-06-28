@@ -159,4 +159,12 @@ section ul li p:last-child{
 }
 .bottom-btn div:last-child{
     flex: 1;
+    background-color: #117C94;
+    text-align: center;
+    line-height: 12vw;
+    font-size: 5vw;
+    color: #fff;
+
+    user-select: none;
+    cursor: pointer;
 }
