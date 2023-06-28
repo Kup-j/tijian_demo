@@ -44,7 +44,7 @@ color: #ccc;
 
 }
 
-section .input-box{
+section .input-box input{
     border: none;
     outline: none;
 }
@@ -57,7 +57,7 @@ section .reg-box{
  margin-bottom: 2vw;   
 }
 
-section .reg-box{
+section .reg-box p{
     font-size: 3.3vw;
     color: #2D727E;
     user-select: none;
