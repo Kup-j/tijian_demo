@@ -54,4 +54,20 @@ table tr td input{
     border: none;
     outline: none;
 }
+/*******************btn***********************/
+.btn{
+    width: 92.8vw;
+    margin: 0 auto;
+    height: 12vw;
+    margin-top: 8vw;
+    background-color: #137e92;
+    border-radius: 2vw;
+    color: #fff;
+    font-size: 5vw;
+    text-align: center;
+    line-height: 12vw;
 
+    user-select: none;
+    cursor: pointer;
+
+}
