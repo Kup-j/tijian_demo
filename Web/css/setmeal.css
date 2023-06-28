@@ -67,104 +67,97 @@ footer ul li.fa{
     width: 100%;
     height: 14.2vw;
 }
-/******************** section **********************/
-section{
-    width: 82vw;
-    margin: 0 auto;
-    margin-top: 12vw;
-}
-section .date-box{
+
+/******************** setmeal **********************/
+.setmeal{
     width: 100%;
+    margin-top: 10vw;
+ }
+ .setmeal li{
+    width: 92.8vw;
+    margin: 0 auto;
+    border: solid 1px #EEE;
+    border-radius: 1vw;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .08);
+    background-color: #FFF;
+    margin-bottom: 3.6vw;
+ }
+ .setmeal li .item{
+    width: 100%;
+    height: 20vw;
+    color: #555;
+
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    font-size: 4.5vw;
-    font-weight: 600;
-}
-section .date-box p{
-    color: #000;
-}
-section .date-box i{
-    color: #999;
+ }
+ .setmeal li .item .item-left{
+    flex: 0 0 72vw;
+    height: 20vw;
+    border-right: solid 1px #EEE;
+    box-sizing: border-box;
+    padding-left: 12vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     user-select: none;
     cursor: pointer;
-}
-section table{
-    width: 100%;
-    font-size: 3.8vw;
-}
-section table tr th{
-    text-align: center;
-    font-weight: 600;
-    line-height: 12vw;
+
+ }
+ .setmeal li .item .item-left h3{
+   font-size: 4.3vw;
+   font-weight: 600;
 }
 
-section ul{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+.setmeal li .item .item-left p{
+  font-size: 4vw;
+  margin-top: 1vw;
 }
-section ul li{
-    width: 14.28%;
-    height: 12vw;
-    font-weight: 600;
-    color: #999;
-}
-section ul li p:first-child{
-    width: 6vw;
-    height: 6vw;
-    margin: 0 auto;
-    border-radius: 3vw;
 
+ .setmeal li .item .item-right{
+    flex:1;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    font-size: 4.2vw;
-
     user-select: none;
     cursor: pointer;
-}
-section ul li p:last-child{
-    font-size: 3vw;
-    font-weight: 300;
-    text-align: center;
-    user-select: none;
-}
-.fontcolor{
-    color: #333;
+ }
+
+ .setmeal li .item .item-right p{
+   font-size: 4vw;
+   margin-right: 2vw;
 }
 
-
-.pselect{
-    background-color: #fb902b;
-    color: #fff;
-}
-
-/******************** bottom-btn **********************/
-.bottom-btn{
+ .setmeal li .item-content{
     width: 100%;
-    height: 12vw;
-    background-color: #fff;
-
-    position: fixed;
-    left: 0;
-    bottom: 14.2vw;
-
-    display: flex;
-
+    background-color: #FFF;
+ }
+ .setmeal li .item-content table{
+   width: 100%;
+   border-collapse: collapse;
+   font-size: 4vw;
+   color: #555;
 }
-.bottom-btn div:first-child{
-    flex:2;
-}
-.bottom-btn div:last-child{
-    flex: 1;
-    background-color: #117C94;
-    text-align: center;
-    line-height: 12vw;
-    font-size: 5vw;
-    color: #fff;
 
-    user-select: none;
-    cursor: pointer;
+.setmeal li .item-content table tr{
+   display: flex;
+}
+
+.setmeal li .item-content table tr td,.setmeal li .item .item-content table tr th{
+   flex:1;
+}
+
+.setmeal li .item-content table tr th{
+   text-align: center;
+   background-color: #EEE;
+   height: 10vw;
+   line-height: 10vw;
+}
+
+.setmeal li .item-content table tr td{
+   border: solid 1px #EFEFEF;
+   box-sizing: border-box;
+   padding: 2vw;
 }
