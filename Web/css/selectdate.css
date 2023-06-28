@@ -98,3 +98,73 @@ section table tr th{
     font-weight: 600;
     line-height: 12vw;
 }
+
+section ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+section ul li{
+    width: 14.28%;
+    height: 12vw;
+    font-weight: 600;
+    color: #999;
+}
+section ul li p:first-child{
+    width: 6vw;
+    height: 6vw;
+    margin: 0 auto;
+    border-radius: 3vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 4.2vw;
+
+    user-select: none;
+    cursor: pointer;
+}
+section ul li p:last-child{
+    font-size: 3vw;
+    font-weight: 300;
+    text-align: center;
+    user-select: none;
+}
+.fontcolor{
+    color: #333;
+}
+
+
+.pselect{
+    background-color: #fb902b;
+    color: #fff;
+}
+
+/******************** bottom-btn **********************/
+.bottom-btn{
+    width: 100%;
+    height: 12vw;
+    background-color: #fff;
+
+    position: fixed;
+    left: 0;
+    bottom: 14.2vw;
+
+    display: flex;
+
+}
+.bottom-btn div:first-child{
+    flex:2;
+}
+.bottom-btn div:last-child{
+    flex: 1;
+    background-color: #117C94;
+    text-align: center;
+    line-height: 12vw;
+    font-size: 5vw;
+    color: #fff;
+
+    user-select: none;
+    cursor: pointer;
+}
