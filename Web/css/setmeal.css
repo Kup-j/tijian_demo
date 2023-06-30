@@ -141,23 +141,24 @@ footer ul li.fa{
    color: #555;
 }
 
-.setmeal li .item-content table tr{
+.setmeal li .item-content table tr {
    display: flex;
 }
 
-.setmeal li .item-content table tr td,.setmeal li .item .item-content table tr th{
-   flex:1;
+.setmeal li .item-content table th,
+.setmeal li .item-content table td {
+   width: 100%;
+   padding: 1vw;
 }
 
-.setmeal li .item-content table tr th{
-   text-align: center;
-   background-color: #EEE;
+.setmeal li .item-content table tr th {
    height: 10vw;
    line-height: 10vw;
+   text-align: center;
+   background-color: #EEE;
 }
 
-.setmeal li .item-content table tr td{
+.setmeal li .item-content table tr td {
    border: solid 1px #EFEFEF;
    box-sizing: border-box;
-   padding: 2vw;
 }
