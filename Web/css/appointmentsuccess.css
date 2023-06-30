@@ -1,0 +1,155 @@
+/******************** 总容器 **********************/
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: #f9f9f9;
+}
+/******************** header **********************/
+header {
+    width: 100%;
+    height: 15.7vw;
+    box-sizing: border-box;
+    background-color: #fff;
+
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3.6vw;
+}
+header .fa{
+    font-size: 8vw;
+}
+
+/******************** common **********************/
+.top-ban{
+    width: 100%;
+    height: 15.7vw;
+}
+.bottom-ban{
+    width: 100%;
+    height: 14.2vw;
+}
+
+/******************** section *********************/
+section {
+    width: 100%;
+}
+section .success {
+    width: 100%;
+    height: 62vw;
+    border-bottom: solid 1px #EEE;
+    background: #fff;
+}
+section .success .icon-box {
+    width: 100%;
+    height: 30vw;
+    background-image: linear-gradient(135deg,#01C7A4,#02A6C9,#02A6C9);
+    position: relative;
+}
+section .success .icon-box .icon {
+    width: 16vw;
+    height: 16vw;
+    border-radius: 8vw;
+    background: #fff;
+    position: absolute;
+    left: 42vw;
+    bottom: -8vw;
+
+    font-size: 8vw;
+    color: #02A6C9;
+
+    text-align: center;
+    line-height: 16vw;
+}
+section .success h1 {
+    font-size: 5.2vw;
+    font-weight: 500;
+    color: #02A6C9;
+    margin-top: 10vw;
+    text-align: center;
+}
+section .success p {
+    font-size: 3.4vw;
+    color: #555;
+    text-align: center;
+    margin-top: 3vw;
+}
+section .order-btn {
+    width: 100%;
+    height: 14vw;
+    text-align: center;
+    line-height: 14vw;
+    font-size: 4vw;
+    color: #02A6C9;
+    background-color: #fff;
+    user-select: none;
+    cursor: pointer;
+}
+section .continue{
+    width: 88vw;
+    height: 13vw;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 13vw;
+    font-size: 4vw;
+    color: #fff;
+    background-image: linear-gradient(135deg,#01C7A4,#02A6C9,#02A6C9);
+    border-radius: 1vw;
+    margin-top: 5vw;
+    user-select: none;
+    cursor: pointer;
+}
+section .info{
+    width: 100%;
+    margin-top: 16vw;
+}
+section .info p{
+    font-size: 3.2vw;
+    color: #999;
+    text-align: center;
+    margin-top: 1vw;
+}
+section .info p span{
+    color: #555;
+    font-size: 3.6vw;
+    margin-left: 1vw;
+}
+/******************** footer **********************/
+footer {
+    width: 100%;
+    height: 14.2vw;
+    box-sizing: border-box;
+    border-top: solid 1px #e9e9e9;
+    background-color: #fff;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+}
+footer ul {
+    width: 100%;
+    height: 14.2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer ul li {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 3vw;
+    color: #999;
+
+    user-select: none;
+    cursor: pointer;
+}
+footer ul li.fa{
+    font-size: 5vw;
+}
